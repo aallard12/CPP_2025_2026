@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        comptebancaire.cpp \
         main.cpp
+
+HEADERS += \
+    comptebancaire.h
