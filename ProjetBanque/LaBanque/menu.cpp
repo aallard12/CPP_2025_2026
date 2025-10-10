@@ -1,9 +1,9 @@
 #include "menu.h"
 
 /**
- *  @author Philippe SIMIER
+ *  @author Antoine ALLARD
  *  @abstract Class pour créer un menu
- *  @date 11 septembre 2020
+ *  @date 10/10/2025
  */
 
 using namespace std;
@@ -98,7 +98,7 @@ int Menu::Afficher()
         cout << setfill(' ');
 
         do{
-            cout << "Votre choix : entre 1 et " << nbOptions  << endl;
+            cout << "Votre choix (entre 1 et " << nbOptions  << ") : ";
             if(!(cin>>choix))
              {
                  cin. clear();

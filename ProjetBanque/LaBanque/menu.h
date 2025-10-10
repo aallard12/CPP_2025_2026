@@ -1,3 +1,11 @@
+/**
+ * @file menu.h
+ * @brief Déclaration de la classe Menu
+ * @version 1.0
+ * @author Antoine ALLARD
+ * @date 10/10/2025
+ */
+
 #ifndef MENU_H
 #define MENU_H
 #include <string>
