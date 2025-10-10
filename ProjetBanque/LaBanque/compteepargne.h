@@ -14,6 +14,7 @@
 class CompteEpargne : public CompteBancaire
 {
 protected:
+    /// Le taux d'intérêts, un nombre réel
     double tauxInterets;
 public:
     CompteEpargne();

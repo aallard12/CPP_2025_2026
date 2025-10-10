@@ -9,14 +9,20 @@
 
 #include "comptebancaire.h"
 
-/** Constructeur avec paramètre de la classe Compte Bancaire */
+/**
+ * @brief CompteBancaire::CompteBancaire
+ * @param _solde
+ */
 CompteBancaire::CompteBancaire(const float _solde):
     solde(_solde)
 {
 
 }
 
-/** Méthode pour déposer de l'argent sur le compte bancaire */
+/**
+ * @brief CompteBancaire::deposer
+ * @param montant
+ */
 void CompteBancaire::deposer(const float montant)
 {
     if (montant>0) {
@@ -24,7 +30,11 @@ void CompteBancaire::deposer(const float montant)
     }
 }
 
-/** Méthode pour retirer de l'argent du compte bancaire */
+/**
+ * @brief CompteBancaire::retirer
+ * @param montant
+ * @return
+ */
 bool CompteBancaire::retirer(const float montant)
 {
     bool retour = false;
@@ -35,7 +45,10 @@ bool CompteBancaire::retirer(const float montant)
     return retour;
 }
 
-/** Méthode pour consulter le solde du compte bancaire */
+/**
+ * @brief CompteBancaire::consulterSolde
+ * @return
+ */
 float CompteBancaire::consulterSolde()
 {
     return solde;

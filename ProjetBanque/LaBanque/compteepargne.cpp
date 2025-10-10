@@ -9,27 +9,38 @@
 
 #include "compteepargne.h"
 
-/// Constructeur par défaut de la classe CompteEpargne
+/**
+ * @brief CompteEpargne::CompteEpargne
+ */
 CompteEpargne::CompteEpargne():
     CompteBancaire(0), tauxInterets(0.03)
 {
 
 }
 
-/// Constructeur paramètres de la classe CompteEpargne
+/**
+ * @brief CompteEpargne::CompteEpargne
+ * @param _solde
+ * @param _tauxInterets
+ */
 CompteEpargne::CompteEpargne(double _solde, double _tauxInterets):
     CompteBancaire(_solde), tauxInterets(_tauxInterets)
 {
 
 }
 
-/// Méthoode pour calculer le taux d'intérêts en fonction du solde
+/**
+ * @brief CompteEpargne::calculerInterets
+ */
 void CompteEpargne::calculerInterets()
 {
     solde += solde*tauxInterets;
 }
 
-/// Méthoode pour modifier le taux d'intérêts
+/**
+ * @brief CompteEpargne::modifierTaux
+ * @param nouveauTaux
+ */
 void CompteEpargne::modifierTaux(double nouveauTaux)
 {
     tauxInterets = nouveauTaux;
