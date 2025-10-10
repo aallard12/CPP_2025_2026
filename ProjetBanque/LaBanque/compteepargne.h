@@ -1,3 +1,11 @@
+/**
+ * @file compteepargne.h
+ * @brief Déclaration de la classe CompteEpargne
+ * @version 1.0
+ * @author Antoine ALLARD
+ * @date 10/10/2025
+ */
+
 #ifndef COMPTEEPARGNE_H
 #define COMPTEEPARGNE_H
 
@@ -9,8 +17,9 @@ protected:
     double tauxInterets;
 public:
     CompteEpargne();
+    CompteEpargne(double _solde, double _tauxInterets);
     void calculerInterets();
-    double modifierTaux();
+    void modifierTaux(double nouveauTaux);
 };
 
 #endif // COMPTEEPARGNE_H
