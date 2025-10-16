@@ -60,7 +60,6 @@ Menu::Menu(const string &_nom):
 
     }
 }
-
 /**
  * @brief Menu::~Menu (Destructeur)
  */

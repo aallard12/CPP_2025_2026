@@ -1,3 +1,11 @@
+/**
+ * @file compteepargne.h
+ * @brief Déclaration de la classe CompteEpargne
+ * @version 1.0
+ * @author Antoine ALLARD
+ * @date 10/10/2025
+ */
+
 #ifndef COMPTECLIENT_H
 #define COMPTECLIENT_H
 

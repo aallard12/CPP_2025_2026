@@ -1,3 +1,11 @@
+/**
+ * @file compteclient.cpp
+ * @brief Implémentation de la classe CompteClient
+ * @version 1.0
+ * @author Antoine ALLARD
+ * @date 10/10/2025
+ * @details Classe modélisant la gestion d'un compte client
+ */
 #include "compteclient.h"
 #include <iostream>
 
