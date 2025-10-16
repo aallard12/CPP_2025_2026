@@ -17,10 +17,10 @@ protected:
     /// Le taux d'intérêts, un nombre réel
     double tauxInterets;
 public:
-    CompteEpargne();
-    CompteEpargne(double _solde, double _tauxInterets);
-    void calculerInterets();
+    CompteEpargne(double _solde = 0.0, double _tauxInterets = 0.03);
+    double calculerInterets();
     void modifierTaux(double nouveauTaux);
+    void crediterInterets();
 };
 
 #endif // COMPTEEPARGNE_H

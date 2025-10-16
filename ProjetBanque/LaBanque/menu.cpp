@@ -2,7 +2,7 @@
 
 /**
  *  @author Antoine ALLARD
- *  @abstract Class pour créer un menu
+ *  @abstract Classe pour créer un menu
  *  @date 10/10/2025
  */
 
@@ -107,7 +107,6 @@ int Menu::Afficher()
              }
 
         }while (  choix > (nbOptions));
-
     }
 
     return choix;

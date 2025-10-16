@@ -17,9 +17,9 @@ protected:
     /** Le solde du compte bancaire, un nombre réel */
     float solde;
 public:
-    CompteBancaire(float _solde);
-    void deposer(const float montant);
-    bool retirer(const float montant);
+    CompteBancaire(float _solde = 0.0);
+    void deposer(const float _depot);
+    bool retirer(const float _retrait);
     float consulterSolde();
 };
 

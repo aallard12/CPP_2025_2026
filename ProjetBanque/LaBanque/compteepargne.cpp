@@ -7,16 +7,8 @@
  * @details Classe modélisant la gestion d'un compte epargne
  */
 
+#include <iostream>
 #include "compteepargne.h"
-
-/**
- * @brief CompteEpargne::CompteEpargne
- */
-CompteEpargne::CompteEpargne():
-    CompteBancaire(0), tauxInterets(0.03)
-{
-
-}
 
 /**
  * @brief CompteEpargne::CompteEpargne
@@ -32,9 +24,11 @@ CompteEpargne::CompteEpargne(double _solde, double _tauxInterets):
 /**
  * @brief CompteEpargne::calculerInterets
  */
-void CompteEpargne::calculerInterets()
+double CompteEpargne::calculerInterets()
 {
-    solde += solde*tauxInterets;
+    double interets = solde * tauxInterets;
+    //solde += solde*tauxInterets;
+    return interets;
 }
 
 /**
@@ -45,3 +39,12 @@ void CompteEpargne::modifierTaux(double nouveauTaux)
 {
     tauxInterets = nouveauTaux;
 }
+
+/**
+ * @brief CompteEpargne::crediterInterets
+ */
+void CompteEpargne::crediterInterets()
+{
+    solde+=calculerInterets();
+}
+

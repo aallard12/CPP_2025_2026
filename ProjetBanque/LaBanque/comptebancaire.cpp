@@ -7,6 +7,7 @@
  * @details Classe modélisant la gestion d'un compte bancaire
  */
 
+#include <iostream>
 #include "comptebancaire.h"
 
 /**
@@ -21,27 +22,28 @@ CompteBancaire::CompteBancaire(const float _solde):
 
 /**
  * @brief CompteBancaire::deposer
- * @param montant
+ * @param _montant
  */
-void CompteBancaire::deposer(const float montant)
+void CompteBancaire::deposer(const float _depot)
 {
-    if (montant>0) {
-        solde += montant;
+    if (_depot>0) {
+        solde += _depot;
     }
 }
 
 /**
  * @brief CompteBancaire::retirer
- * @param montant
+ * @param _montant
  * @return
  */
-bool CompteBancaire::retirer(const float montant)
+bool CompteBancaire::retirer(const float _retrait)
 {
     bool retour = false;
-    if (solde >= montant){
-        solde -= montant;
+    if (solde >= _retrait && _retrait >= 0){
+        solde -= _retrait;
         retour = true;
     }
+
     return retour;
 }
 

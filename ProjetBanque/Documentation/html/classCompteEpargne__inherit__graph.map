@@ -1,0 +1,5 @@
+<map id="CompteEpargne" name="CompteEpargne">
+<area shape="rect" id="Node000001" title=" " alt="" coords="7,179,135,304"/>
+<area shape="rect" id="Node000002" href="$classCompteBancaire.html" title=" " alt="" coords="5,5,136,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,145,73,178,68,178,68,145"/>
+</map>
