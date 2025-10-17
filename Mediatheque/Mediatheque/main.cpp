@@ -11,6 +11,5 @@ int main()
     DVD monDVD(2000, "Le Parrain", "Francis Ford Coppola", 1972, 175);
     monLivre.afficher();
     monDVD.afficher();
-    // test
     return 0;
 }
