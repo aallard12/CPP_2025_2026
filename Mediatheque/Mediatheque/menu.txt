@@ -1,0 +1,6 @@
+Ajouter un DVD
+Ajouter un Livre
+Afficher l'ensemble
+Afficher les DVDs
+Afficher les Livres
+Quitter
