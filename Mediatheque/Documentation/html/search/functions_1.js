@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['dvd_0',['DVD',['../classDVD.html#abe6acdb6b915548f3d4611022364dbce',1,'DVD']]]
+  ['catalogue_0',['Catalogue',['../classCatalogue.html#adf7d458350c17f253f855cd7802c1949',1,'Catalogue']]],
+  ['consulter_1',['consulter',['../classCatalogue.html#a3d02bcee10f14afca5e222a50ee991a4',1,'Catalogue']]]
 ];

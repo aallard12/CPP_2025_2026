@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['identifiant_0',['identifiant',['../classMedia.html#a6757148a0bbe7980c46a4910e67424a3',1,'Media']]]
+  ['duree_0',['duree',['../classDVD.html#a14eb65d83f6301e0a0dc392218bfa4f3',1,'DVD']]]
 ];
