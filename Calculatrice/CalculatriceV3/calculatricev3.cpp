@@ -15,6 +15,7 @@ CalculatriceV3::CalculatriceV3(QWidget *parent)
     afficheur = new QLineEdit;
     afficheur->setMinimumHeight(50);
     afficheur->setPlaceholderText("0");
+    afficheur->setReadOnly(true);
     afficheur->setStyleSheet("background-color: rgb(0,0,0); color: rgb(255, 255, 255); font-size: 16px;");
     touches = new QPushButton*[NB_TOUCHES];
     grille->addWidget(afficheur,0,0,1,4);
