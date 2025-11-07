@@ -65,8 +65,13 @@ background-color: rgb(38, 162, 105);</string>
         <height>50</height>
        </size>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
       <property name="styleSheet">
-       <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.885, y2:0.863636, stop:0.242291 rgba(51, 51, 51, 255), stop:0.828194 rgba(255, 19, 19, 255));</string>
+       <string notr="true"/>
       </property>
       <property name="text">
        <string>1</string>
