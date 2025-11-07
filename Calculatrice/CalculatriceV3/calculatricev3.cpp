@@ -18,7 +18,6 @@ CalculatriceV3::CalculatriceV3(QWidget *parent)
     afficheur->setStyleSheet("background-color: rgb(0,0,0); color: rgb(255, 255, 255); font-size: 16px;");
     touches = new QPushButton*[NB_TOUCHES];
     grille->addWidget(afficheur,0,0,1,4);
-
     int indice = 0;
 
     for (int ligne = 1; ligne < 5; ligne ++){
