@@ -107,7 +107,6 @@ int Menu::afficherEtChoisir()
              }
 
         }while (  choix > (nbOptions));
-
     }
 
     return choix;

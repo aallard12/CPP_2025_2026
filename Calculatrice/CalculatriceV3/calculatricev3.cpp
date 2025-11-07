@@ -28,7 +28,8 @@ CalculatriceV3::CalculatriceV3(QWidget *parent)
             touches[indice]->setText(tableDesSymboles[indice]);
             touches[indice]->setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.885, y2:0.863636, stop:0.242291 rgba(51, 51, 51, 255), stop:0.828194 rgba(255, 19, 19, 255)); "
                                            "font: bold; font-size: 16px;");
-            touches[indice]->setMinimumSize(50,50);
+            touches[indice]->setMinimumSize(100,50);
+            touches[indice]->setMaximumSize(100,50);
             grille->addWidget(touches[indice],ligne,colonne);
             QObject::connect(touches[indice],&QPushButton::clicked,this,&CalculatriceV3::onQPushButtonClicked);
             indice ++;
